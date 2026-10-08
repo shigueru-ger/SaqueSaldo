@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #00cc73;
+
+    font-family: Arial, sans-serif;
+}
+
+.caixa {
+    width: 90%;
+    max-width: 400px;
+
+    padding: 30px;
+
+    background-color: rgba(255, 255, 255, 0.4);
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+
+#saldo {
+    background-color: white;
+
+    color: #00a85f;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 16px;
+
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+    border-radius: 10px;
+
+    background-color: white;
+    color: #00a85f;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #eeeeee;
+}
+
+#btnAdicionar {
+    background-color: #009f5b;
+    color: white;
+}
+
+#btnAdicionar:hover {
+    background-color: #008c50;
+}
+
+#resultado {
+    margin-top: 15px;
+
+    padding: 15px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+
+    border-radius: 10px;
+
+    text-align: left;
+}
+
+#resultado p {
+    color: #222;
+
+    margin-bottom: 8px;
+}
+
+.erro {
+    color: #d00000 !important;
+
+    font-weight: bold;
+}
+
+.sucesso {
+    color: #008c50 !important;
+
+    font-weight: bold;
+}
